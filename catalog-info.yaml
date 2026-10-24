@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: namaste-frontend-system-design
+  description: Study notes on frontend system design, covering security, testing, performance, networking, HLD and LLD.
+  tags:
+    - frontend
+    - system-design
+    - notes
+  annotations:
+    github.com/project-slug: visnand/namaste-frontend-system-design
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: user:default/visnand
